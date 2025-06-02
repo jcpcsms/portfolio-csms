@@ -9,7 +9,95 @@ Intro: Throughout the course of our studies at Full Sail University in the Compu
 
 ## Recent Presentation
 
-[We'll add your PowerPoint slides display here]
+<div class="slideshow-container">
+  <div class="slides">
+    <img src="assets/slides/Slide1.PNG" alt="Slide 1" class="slide active">
+    <img src="assets/slides/Slide2.PNG" alt="Slide 2" class="slide">
+    <img src="assets/slides/Slide3.PNG" alt="Slide 3" class="slide">
+    <!-- Add more slides here - replace with your actual filenames -->
+  </div>
+  
+  <button class="prev" onclick="changeSlide(-1)">❮</button>
+  <button class="next" onclick="changeSlide(1)">❯</button>
+  
+  <div class="slide-counter">
+    <span id="current-slide">1</span> / <span id="total-slides">3</span>
+  </div>
+</div>
+
+<style>
+.slideshow-container {
+  position: relative;
+  max-width: 800px;
+  margin: auto;
+  background: #f1f1f1;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.slide {
+  display: none;
+  width: 100%;
+  height: auto;
+}
+
+.slide.active {
+  display: block;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  background: rgba(0,0,0,0.5);
+  border: none;
+  transition: 0.3s ease;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+}
+
+.prev:hover, .next:hover {
+  background: rgba(0,0,0,0.8);
+}
+
+.slide-counter {
+  text-align: center;
+  padding: 20px;
+  background: #333;
+  color: white;
+}
+</style>
+
+<script>
+let currentSlide = 1;
+const totalSlides = document.querySelectorAll('.slide').length;
+document.getElementById('total-slides').textContent = totalSlides;
+
+function changeSlide(direction) {
+  const slides = document.querySelectorAll('.slide');
+  slides[currentSlide - 1].classList.remove('active');
+  
+  currentSlide += direction;
+  
+  if (currentSlide > totalSlides) {
+    currentSlide = 1;
+  } else if (currentSlide < 1) {
+    currentSlide = totalSlides;
+  }
+  
+  slides[currentSlide - 1].classList.add('active');
+  document.getElementById('current-slide').textContent = currentSlide;
+}
+</script>
 
 ## Monthly Development Blog
 
