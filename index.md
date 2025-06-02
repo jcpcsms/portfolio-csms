@@ -1,8 +1,36 @@
 ---
-layout: home
+layout: default
 title: Portfolio v1
 ---
 
+<style>
+body {
+  background: #0a0a0a !important;
+  color: #00ff41 !important;
+  font-family: 'Courier New', monospace !important;
+}
+
+.site-header, header {
+  background: #1a1a1a !important;
+  border-bottom: 2px solid #00ff41 !important;
+}
+
+.site-title, .site-title:visited {
+  color: #00ff41 !important;
+  text-shadow: 0 0 15px #00ff41 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #00ff41 !important;
+  text-shadow: 0 0 10px rgba(0, 255, 65, 0.5) !important;
+}
+
+.wrapper, .page-content, main, .container {
+  background: rgba(26, 26, 26, 0.9) !important;
+  border: 1px solid #00ff41 !important;
+  border-radius: 10px !important;
+  box-shadow: 0 0 30px rgba(0, 255, 65, 0.2) !important;
+}
 # Introduction
 
 Intro: Throughout the course of our studies at Full Sail University in the Computer Science Masters of Science with a focus on AI, we have been challenged to learn and perform a pace we often did not believe would be possible. This was a true real world educaction in the sense that it forced us to perform at a level we did not realize was possible. The courswork demanded our attention on a daily basis and to be successful we often worked up until the last moment of the deadline to submit our work on time. This was a challenge that brought us to gain a deep understanding of concepts like machine-learning, computer vision, statistical modeling, feature engineering, and more. This required a new level of discipline and many sacrifices to accomplish. It seemed life was hitting harder and harder until finally one day, it all paid off. We finnally made it to the Capstone Project and our presentation was accepted for development! We are excited to share the progress of our work and the challenges we faced along the way. 
