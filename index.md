@@ -174,7 +174,7 @@ function changeSlide(direction) {
   <h3 class="post-title">Action Recognition Modeling and Integration</h3>
   <div class="post-meta">June 1, 2025 • By JCP</div>
   <h4>Features Developed This Month</h4>
-  <p>This month we developed a system to create and train action recognition models using MediaPipe, PyTorch, SciKitLearn and data augmentation techniques to produce accurate models with less than 50 samples. Google provides a demo library for Mediapipe which allows us to create the required tracking landmarks we need to record action data. We were able to introduce the model we trained into the main application that performs object detection to integration action recognition and object detection in our main application "EyeSpy+".</p>
+  <p>This month we developed a system to create and train action recognition models using MediaPipe, PyTorch, SciKitLearn and data augmentation techniques to produce accurate models with less than 50 samples. Google provides a demo library for Mediapipe which allows us to create the required tracking landmarks we need to record action data. Source : https://github.com/google-ai-edge/mediapipe. We were able to introduce the model we trained along with our new action recognition pipeline into the main application that performs object detection called "EyeSpy+".</p>
   
 ![Action Recognition Trainer with skeleton wireframe](assets/images/demoMs1.png)
 
