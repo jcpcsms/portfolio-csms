@@ -203,7 +203,7 @@ function changeSlide(direction) {
   <p>Going forward I will need to give a full effort to the development process. Right now the prototype works, but it seems to be very heavy on resource consumption. Additionally, we may want to use this method for object detection "https://developers.googleblog.com/en/object-detection-and-tracking-using-mediapipe/" rather than our existing YOLO pipeline in order to lighten the processing load.</p>
 
   <div style="text-align: center; margin: 20px 0;">
-    <img src="assets/images/bear.gif" alt="Bear object detection" style="border: 2px solid #00ff41; border-radius: 10px; max-width: 100%;">
+    <img src="assets/images/bear.gif" alt="Google GIF" style="border: 2px solid #00ff41; border-radius: 10px; max-width: 100%;">
     <p style="font-style: italic; color: #a0a0a0; margin-top: 10px;">Bear object detection demonstration</p>
   </div>
 </div>
