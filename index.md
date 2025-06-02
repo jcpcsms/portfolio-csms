@@ -176,7 +176,7 @@ function changeSlide(direction) {
   <h4>Features Developed This Month</h4>
   <p>This month we developed a system to create and train action recognition models using MediaPipe, PyTorch, SciKitLearn and data augmentation techniques to produce accurate models with less than 50 samples. We were able to introduce the model we trained into the main application that performs object detection to integration action recognition and object detection in our main application "EyeSpy+".</p>
   
-![Action Recognition Trainer with skeleton wireframe](assets/images/demoMS1.png)
+![Action Recognition Trainer with skeleton wireframe](assets/images/demoMs1.png)
 
   <h4>Retrospective</h4>
   <h5>What went right this month?</h5>
