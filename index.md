@@ -17,6 +17,16 @@ Intro: Throughout the course of our studies at Full Sail University in the Compu
     <img src="assets/slides/Slide5.jpg" alt="Slide 4" class="slide">
     <img src="assets/slides/Slide6.jpg" alt="Slide 5" class="slide">
     <img src="assets/slides/Slide7.jpg" alt="Slide 6" class="slide">
+    <img src="assets/slides/Slide8.jpg" alt="Slide 7" class="slide">
+    <img src="assets/slides/Slide9.jpg" alt="Slide 8" class="slide">
+    <img src="assets/slides/Slide10.jpg" alt="Slide 9" class="slide">
+    <img src="assets/slides/Slide11.jpg" alt="Slide 10" class="slide">
+    <img src="assets/slides/Slide12.jpg" alt="Slide 11" class="slide">
+    <img src="assets/slides/Slide13.jpg" alt="Slide 12" class="slide">
+    <img src="assets/slides/Slide14.jpg" alt="Slide 13" class="slide">
+    <img src="assets/slides/Slide15.jpg" alt="Slide 14" class="slide">
+    <img src="assets/slides/Slide16.jpg" alt="Slide 15" class="slide">
+    <img src="assets/slides/Slide17.jpg" alt="Slide 16" class="slide">
   </div>
   
   <button class="prev" onclick="changeSlide(-1)">❮</button>
