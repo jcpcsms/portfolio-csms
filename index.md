@@ -33,7 +33,7 @@ Intro: Throughout the course of our studies at Full Sail University in the Compu
   <button class="next" onclick="changeSlide(1)">❯</button>
   
   <div class="slide-counter">
-    <span id="current-slide">1</span> / <span id="total-slides">6</span>
+    <span id="current-slide">1</span> / <span id="total-slides">16</span>
   </div>
 </div>
 
