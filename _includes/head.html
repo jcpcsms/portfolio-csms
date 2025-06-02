@@ -1,0 +1,44 @@
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ page.title | default: site.title }}</title>
+<meta name="description" content="{{ page.excerpt | default: site.description }}">
+<link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+
+<style>
+body {
+  background: #0a0a0a !important;
+  color: #00ff41 !important;
+  font-family: 'Courier New', monospace !important;
+  margin: 0;
+  padding: 20px;
+}
+
+.site-header {
+  background: #1a1a1a !important;
+  border-bottom: 2px solid #00ff41 !important;
+  padding: 20px 0;
+}
+
+.site-title {
+  color: #00ff41 !important;
+  text-shadow: 0 0 15px #00ff41;
+  font-size: 2rem;
+  text-decoration: none !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #00ff41 !important;
+  text-shadow: 0 0 10px rgba(0, 255, 65, 0.5);
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  background: rgba(26, 26, 26, 0.8) !important;
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid #00ff41;
+  box-shadow: 0 0 30px rgba(0, 255, 65, 0.2);
+}
+</style>
