@@ -174,7 +174,7 @@ function changeSlide(direction) {
   <h3 class="post-title">Action Recognition Modeling and Integration</h3>
   <div class="post-meta">June 1, 2025 • By JCP</div>
   <h4>Features Developed This Month</h4>
-  <p>This month we developed a system to create and train action recognition models using MediaPipe, PyTorch, SciKitLearn and data augmentation techniques to produce accurate models with less than 50 samples. We were able to introduce the model we trained into the main application that performs object detection to integration action recognition and object detection in our main application "EyeSpy+".</p>
+  <p>This month we developed a system to create and train action recognition models using MediaPipe, PyTorch, SciKitLearn and data augmentation techniques to produce accurate models with less than 50 samples. Google provides a demo library for Mediapipe which allows us to create the required tracking landmarks we need to record action data. We were able to introduce the model we trained into the main application that performs object detection to integration action recognition and object detection in our main application "EyeSpy+".</p>
   
 ![Action Recognition Trainer with skeleton wireframe](assets/images/demoMs1.png)
 
@@ -188,5 +188,8 @@ function changeSlide(direction) {
   <p>When we attempted to integrate the action recognition feature into our main application we had to do quite a bit of troubleshooting to understand what variables were affecting each model's performance. The size of the video frame in the main application did not match the size of the training application. I assumed this was just a display setting, not something the models would consider when performing inference. Once I matched the main application size and frame rate to the action recognition model's training data we were able to get successful detections of both the action and object detection models.</p>
   <p>Also, our Version 3 prototype performed great with just CPU processing. For this version we have had to leverage CUDA for performance enhancements since the action recognition and object detection concurrent inference tasks are not running optimally.</p>
   <h5>How can you improve moving forward?</h5>
-  <p>Going forward I will need to give a full effort to the development process. Right now the prototype works, but it seems to be very heavy on resource consumption.</p>
+  <p>Going forward I will need to give a full effort to the development process. Right now the prototype works, but it seems to be very heavy on resource consumption. Additionally we may want to use this method for object detection "https://developers.googleblog.com/en/object-detection-and-tracking-using-mediapipe/" rather than our exisiting YOLO pipeline in order to lighten the processing load. </p>
+
+![bear object detection](assets/images/bear.gif)
+
 </div>
