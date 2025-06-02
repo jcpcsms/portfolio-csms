@@ -1,0 +1,217 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+// Futuristic Color Scheme
+$bg-primary: #0a0a0a;
+$bg-secondary: #1a1a1a;
+$neon-green: #00ff41;
+$neon-green-dim: #00cc33;
+$text-primary: #e0e0e0;
+$text-secondary: #a0a0a0;
+$border-color: #333;
+
+// Reset and Base Styles
+body {
+  background: $bg-primary !important;
+  color: $text-primary !important;  
+  font-family: 'Courier New', monospace !important;
+  margin: 0;
+  padding: 0;
+  background-image: 
+    radial-gradient(circle at 25% 25%, #003300 0%, transparent 50%),
+    radial-gradient(circle at 75% 75%, #001100 0%, transparent 50%);
+  background-attachment: fixed;
+}
+
+// Header and Navigation
+.site-header {
+  background: $bg-secondary !important;
+  border-bottom: 2px solid $neon-green !important;
+  box-shadow: 0 0 20px rgba(0, 255, 65, 0.3);
+}
+
+.site-title {
+  color: $neon-green !important;
+  text-shadow: 0 0 10px $neon-green;
+  font-weight: bold !important;
+  letter-spacing: 2px;
+}
+
+.site-nav .page-link {
+  color: $text-primary !important;
+  border: 1px solid transparent;
+  padding: 5px 10px;
+  transition: all 0.3s ease;
+}
+
+.site-nav .page-link:hover {
+  color: $neon-green !important;
+  border: 1px solid $neon-green;
+  box-shadow: 0 0 10px rgba(0, 255, 65, 0.5);
+  text-shadow: 0 0 5px $neon-green;
+}
+
+// Main Content
+.wrapper {
+  background: rgba(26, 26, 26, 0.8) !important;
+  border: 1px solid $border-color;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(0, 255, 65, 0.1);
+  backdrop-filter: blur(5px);
+}
+
+// Headings
+h1, h2, h3, h4, h5, h6 {
+  color: $neon-green !important;
+  text-shadow: 0 0 10px rgba(0, 255, 65, 0.5);
+  position: relative;
+}
+
+h1::after, h2::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 50px;
+  height: 2px;
+  background: linear-gradient(90deg, $neon-green, transparent);
+}
+
+// Posts and Blog
+.post-list-heading {
+  color: $neon-green !important;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.post-list {
+  list-style: none !important;
+  padding: 0 !important;
+}
+
+.post-list li {
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid $border-color;
+  border-left: 4px solid $neon-green;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.post-list li:hover {
+  border-color: $neon-green;
+  box-shadow: 0 0 15px rgba(0, 255, 65, 0.3);
+  transform: translateX(5px);
+}
+
+.post-link {
+  color: $text-primary !important;
+  text-decoration: none !important;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.post-link:hover {
+  color: $neon-green !important;
+  text-shadow: 0 0 5px $neon-green;
+}
+
+.post-meta {
+  color: $text-secondary !important;
+  font-style: italic;
+  margin-top: 0.5rem;
+}
+
+// Buttons and Links
+a {
+  color: $neon-green !important;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  text-shadow: 0 0 5px $neon-green;
+  text-decoration: none !important;
+}
+
+// Slide Button Enhancement
+.slide-button {
+  display: inline-block;
+  padding: 15px 30px;
+  background: linear-gradient(45deg, $bg-secondary, #2a2a2a);
+  color: $neon-green !important;
+  text-decoration: none !important;
+  border: 2px solid $neon-green;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 20px rgba(0, 255, 65, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+.slide-button::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(45deg, transparent, rgba(0, 255, 65, 0.1), transparent);
+  transform: rotate(45deg);
+  transition: all 0.5s ease;
+}
+
+.slide-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 30px rgba(0, 255, 65, 0.6);
+  color: #fff !important;
+}
+
+.slide-button:hover::before {
+  left: 100%;
+}
+
+// Code blocks
+pre, code {
+  background: rgba(0, 0, 0, 0.7) !important;
+  border: 1px solid $border-color !important;
+  color: $neon-green !important;
+}
+
+// Geometric decorations
+.home::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: 
+    linear-gradient(90deg, transparent 98%, rgba(0, 255, 65, 0.1) 100%),
+    linear-gradient(0deg, transparent 98%, rgba(0, 255, 65, 0.1) 100%);
+  background-size: 50px 50px;
+  pointer-events: none;
+  z-index: -1;
+}
+
+// Footer
+.site-footer {
+  background: $bg-secondary !important;
+  border-top: 2px solid $neon-green !important;
+  color: $text-secondary !important;
+}
+
+// Responsive adjustments
+@media screen and (max-width: 600px) {
+  .slide-button {
+    padding: 12px 20px;
+    font-size: 1rem;
+  }
+}
