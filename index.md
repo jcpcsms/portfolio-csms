@@ -175,7 +175,9 @@ function changeSlide(direction) {
   <div class="post-meta">June 1, 2025 • By JCP</div>
   <h4>Features Developed This Month</h4>
   <p>This month we developed a system to create and train action recognition models using MediaPipe, PyTorch, SciKitLearn and data augmentation techniques to produce accurate models with less than 50 samples. We were able to introduce the model we trained into the main application that performs object detection to integration action recognition and object detection in our main application "EyeSpy+".</p>
+  
 ![Action Recognition Trainer with skeleton wireframe](assets/images/demoMS1.png)
+
   <h4>Retrospective</h4>
   <h5>What went right this month?</h5>
   <p>This month we were fortunate to have a lot of time available to dedicate to our project due to our work schedule opening up time for us to work on our studies. Knowing how challenging it is to annotate images for model training from a previous project, we decided to make this the focus of the effort. Our efforts began by examining other action recognition projects and looking for trends in the model composition and sample types. Thanks to "Python Feature Engineering Cookbook" by Soledad Galli which was recommended further reading material from our Machine Learning course, we were able to find ways to augment the sample data (JSON format) by adding versions of each sample at different time scales, rotating the position of the base, introducing noise, and flipping the images through into our action recognition model training algorithm.</p>
