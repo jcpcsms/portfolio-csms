@@ -13,8 +13,10 @@ Intro: Throughout the course of our studies at Full Sail University in the Compu
   <div class="slides">
     <img src="assets/slides/Slide1.PNG" alt="Slide 1" class="slide active">
     <img src="assets/slides/Slide2.PNG" alt="Slide 2" class="slide">
-    <img src="assets/slides/Slide3.PNG" alt="Slide 3" class="slide">
-    <!-- Add more slides here - replace with your actual filenames -->
+    <img src="assets/slides/Slide4.PNG" alt="Slide 3" class="slide">
+    <img src="assets/slides/Slide5.PNG" alt="Slide 4" class="slide">
+    <img src="assets/slides/Slide6.PNG" alt="Slide 5" class="slide">
+    <img src="assets/slides/Slide7.PNG" alt="Slide 6" class="slide">
   </div>
   
   <button class="prev" onclick="changeSlide(-1)">❮</button>
