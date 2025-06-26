@@ -207,3 +207,31 @@ function changeSlide(direction) {
     <p style="font-style: italic; color: #a0a0a0; margin-top: 10px;">Bear object detection demonstration</p>
   </div>
 </div>
+
+<div class="blog-post">
+  <h3 class="post-title">Multi-Camera System Development + Mobile Alerts + Jetson Orin Nano AI Accelerator</h3>
+  <div class="post-meta">June 28, 2025 • By JCP</div>
+  
+  <h4>Features Developed This Month</h4>
+  <p>This month we focused on enhancing the multi-camera system's capabilities including a video matrix interface with source selection menu, integrating mobile alerts via Telegram API, and attempting to integrate a Jetson Orin Nano AI Accelerator.</p>
+  
+  <h4>Retrospective</h4>
+  
+  <h5>What went right this month?</h5>
+  <p>Successfully implemented a video matrix interface that allows users to select camera sources and view them in a grid layout. This feature enhances the user experience by providing a clear and organized way to monitor multiple camera feeds simultaneously. This month provided a valuable learning experience on how the action recognition models need to be tuned to perform on different video qualities and frame rates and their limitations. Using the Telegram API it was possible to create mobile alerts, only requiring the user to have the Telegram application on their phone. The initial go at the Jetson device was partially successful. This is a compact and powerful device which can be used to augment certain inference tasks for Eyespy. </p>
+  
+  <h5>What went wrong this month?</h5>
+  <p> 1: The action recognition model did not perform well with the default settings due to inconsistencies in video source formats and resolutions. This lead to using only the firearm detection feature in the multi-camera version of Eyespy for the time being. </p>
+  <p> 2: The integration of the Jetson Orin Nano AI Accelerator was more challenging than expected. The object detection model was not able to run concurrently with the action recognition model, which limited the functionality of the system. Efforts to off load the processes to the Jetson were met with release limitations for Jetpack 6.2. Pytorch has not yet released a CUDA capable wheel that supports our build and hardware. Jetson Orin Nano with JetPack 6.2 has CUDA capability sm_87, but no compatible PyTorch wheel exists.</p>
+  <p> 3: Went deep into the development rabbit hole spending long nights and working into exhaustion. This lead to a poor thesis draft submission due to working on the Development Milestones up until the hour of submission.</p>
+  
+  <h5>How can you improve moving forward?</h5>
+  <p>To improve moving forward, we will focus on the following actions:</p>
+  <p>1. Optimize the action recognition model's settings to better handle varying video qualities and frame rates.</p>
+  <p>2. Continue exploring the capabilities of the Jetson Orin Nano AI Accelerator and its integration with our existing system.</p>
+  <p>3. Investigate alternatives to Pytorch that are compatible with Jetson Orin Nano and can leverage its CUDA capabilities.</p>
+  <p>4. Build diagnostic tools to better understand model performance and identify bottlenecks.</p>
+  <p>5. May need to consider moving action recognition into future development cycles.</p>
+</div>
+
+
