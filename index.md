@@ -208,9 +208,11 @@ function changeSlide(direction) {
   </div>
 </div>
 
+## Monthly Development Blog
+
 <div class="blog-post">
-  <h3 class="post-title">Multi-Camera System Development + Mobile Alerts + Jetson Orin Nano AI Accelerator</h3>
-  <div class="post-meta">June 28, 2025 • By JCP</div>
+  <h3 class="post-title"> Multi-Camera System Development + Mobile Alerts + Jetson Orin Nano AI Accelerator</h3>
+  <div class="post-meta"> June 26, 2025 • By JCP</div>
   
   <h4>Features Developed This Month</h4>
   <p>This month we focused on enhancing the multi-camera system's capabilities including a video matrix interface with source selection menu, integrating mobile alerts via Telegram API, and attempting to integrate a Jetson Orin Nano AI Accelerator.</p>
@@ -233,5 +235,4 @@ function changeSlide(direction) {
   <p>4. Build diagnostic tools to better understand model performance and identify bottlenecks.</p>
   <p>5. May need to consider moving action recognition into future development cycles.</p>
 </div>
-
 
