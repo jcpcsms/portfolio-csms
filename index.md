@@ -216,7 +216,7 @@ div class="blog-post">
   <p>This month we focused on enhancing the multi-camera system's capabilities including a video matrix interface with source selection menu, integrating mobile alerts via Telegram API, refactoring, and integrating a Jetson Orin Nano AI Accelerator for action recognition.</p>
   
   <div style="text-align: center; margin: 20px 0;">
-    <img src= "/assets/images/Jetson%20fresh%20arrival.jpg" alt="Active detection in main app" style="border: 2px solid #00ff41; border-radius: 10px; max-width: 100%;">
+    <img src= "/assets/images/Jetson_fresh_arrival.jpg" alt="Active detection in main app" style="border: 2px solid #00ff41; border-radius: 10px; max-width: 100%;">
     <p style="font-style: italic; color: #a0a0a0; margin-top: 10px;">Jetson Orin Nano AI Accelerator</p>
   </div>
 
@@ -226,12 +226,12 @@ div class="blog-post">
   <p>Successfully implemented a video matrix interface that allows users to select camera sources and view them in a grid layout. This feature enhances the user experience by providing a clear and organized way to monitor multiple camera feeds simultaneously. This month provided a valuable learning experience on how the action recognition models need to be tuned to perform on different video resolutions and frame rates and their limitations. Using the Telegram API it was possible to create mobile alerts, only requiring the user to have the Telegram application on their phone. The initial go at the Jetson device was partially successful. This is a compact and powerful device which can be used to augment certain inference tasks for Eyespy. At present, the Jetson is handling all action recognition processing tasks so the PC can take care of firearm detections. So far, only 2 camera feeds are being processed simultaneously for action recognition. The idea to use an edge processing device like this was inspired from the feedback provided by Dr. Oleg Kachirski. In seeking some insight from the faculty my advisor Dr. Andreas Marpaung suggested I get Dr. Oleg's input on the problems with the action recognition model not being "resolution aware", which was very helpful and provided us with a path forward to improve the novel training method used to create the AR model. To save on PC resources we reduced the display resolution and reduced object detection frequency. This significantly improved the issues related to video latency and processing errors.</p>
 
   <div style="text-align: center; margin: 20px 0;">
-    <img src= "/assets/images/Jetson%20no%20shell.jpg" alt="Active detection in main app" style="border: 2px solid #00ff41; border-radius: 10px; max-width: 100%;">
+    <img src= "/assets/images/Jetson_no_shell.jpg" alt="Active detection in main app" style="border: 2px solid #00ff41; border-radius: 10px; max-width: 100%;">
     <p style="font-style: italic; color: #a0a0a0; margin-top: 10px;">Jetson Orin Nano AI Accelerator out of the box</p>
   </div>
 
   <div style="text-align: center; margin: 20px 0;">
-    <img src= "/assets/images/Jetson%20first%20power%20up.png" alt="Active detection in main app" style="border: 2px solid #00ff41; border-radius: 10px; max-width: 100%;">
+    <img src= "/assets/images/Jetson_first_power_up.png" alt="Active detection in main app" style="border: 2px solid #00ff41; border-radius: 10px; max-width: 100%;">
     <p style="font-style: italic; color: #a0a0a0; margin-top: 10px;">First Power up</p>
   </div>
 
@@ -241,7 +241,7 @@ div class="blog-post">
   <p> 3: Went deep into the development rabbit hole spending long nights and working into exhaustion. This lead to a poor thesis draft submission due to working on the Development Milestones up until the hour of submission.</p>
   
   <div style="text-align: center; margin: 20px 0;">
-    <img src= "/assets/images/Jetson%20Orin%20Nano%20In%20Case.png" alt="Active detection in main app" style="border: 2px solid #00ff41; border-radius: 10px; max-width: 100%;">
+    <img src= "/assets/images/Jetson_Orin_Nano_In_Case.png" alt="Active detection in main app" style="border: 2px solid #00ff41; border-radius: 10px; max-width: 100%;">
     <p style="font-style: italic; color: #a0a0a0; margin-top: 10px;">Jetson Orin Nano AI Accelerator in case</p>
   </div>
 
