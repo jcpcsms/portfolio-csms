@@ -208,7 +208,7 @@ function changeSlide(direction) {
   </div>
 </div>
 
-div class="blog-post">
+<div class="blog-post">
   <h3 class="post-title"> Multi-Camera System Development + Mobile Alerts + Jetson Orin Nano AI Accelerator</h3>
   <div class="post-meta"> June 29, 2025 • By JCP</div>
   
