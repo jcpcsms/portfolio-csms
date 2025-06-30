@@ -215,11 +215,7 @@ function changeSlide(direction) {
   <h4>Features Developed This Month</h4>
   <p>This month we focused on enhancing the multi-camera system's capabilities including a video matrix interface with source selection menu, integrating mobile alerts via Telegram API, refactoring, and integrating a Jetson Orin Nano AI Accelerator for action recognition.</p>
   
-  <div style="text-align: center; margin: 20px 0;">
-    <img src= "assets/images/Jetson_fresh_arrival.jpg" alt="Active detection in main app" style="border: 2px solid #00ff41; border-radius: 10px; max-width: 100%;">
-    <p style="font-style: italic; color: #a0a0a0; margin-top: 10px;">Jetson Orin Nano AI Accelerator</p>
-  </div>
-
+  
   <h4>Retrospective</h4>
   
   <h5>What went right this month?</h5>
