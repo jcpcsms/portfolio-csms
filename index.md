@@ -260,7 +260,7 @@ function changeSlide(direction) {
 </div>
 
 <div style="text-align: center; margin: 20px 0;">
-    <img src= "assets/images/images/Hardware_configuration.png" alt="EyeSpy+ Scaled System Architecture Diagram" style="border: 2px solid #00ff41; border-radius: 10px; max-width: 100%;">
+    <img src= "assets/images/Hardware_configuration.png" alt="EyeSpy+ Scaled System Architecture Diagram" style="border: 2px solid #00ff41; border-radius: 10px; max-width: 100%;">
     <p style="font-style: italic; color: #a0a0a0; margin-top: 10px;"> Additional distribution channel via Meshtastic Network planned in future developement.</p>
   </div>
     
