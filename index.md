@@ -250,3 +250,12 @@ function changeSlide(direction) {
 </div>
 
 
+<div class="blog-post">
+  <h3 class="post-title"> Development Updates & Milestones </h3>
+  <div class="post-meta"> July 21, 2025 • By JCP</div>
+  
+  <h4>Features Developed This Month</h4>
+  <p> This month development efforts scaled the system & application architecture to suport distributed processing and additional hardware components. See System diagram figure 1.
+    Jetson Orin Nano powered camera server with edge side action recognition processing. </p>
+
+    
