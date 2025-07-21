@@ -256,7 +256,9 @@ function changeSlide(direction) {
   
   <h4>Features Developed This Month</h4>
   <p> This month development efforts scaled the system & application architecture to suport distributed processing and additional hardware components. See System diagram figure 1.
-    Jetson Orin Nano powered camera server with edge side action recognition processing. </p>
+    Jetson Orin Nano powered camera server optimization with edge side action recognition processing. New processsing ditribution pipeline uses round robbin style frame cycling for firearm detecion making the PC side application fully equiped to handle 5 camera sources with firearm detection with a stable processing load. Notification label enhancements. Change: Jetson PUSH notifications to PC to replace previous GET used in earlier version.   
+    
+  </p>
 </div>
 
 <div style="text-align: center; margin: 20px 0;">
