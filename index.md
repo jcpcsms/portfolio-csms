@@ -259,10 +259,29 @@ function changeSlide(direction) {
     Jetson Orin Nano powered camera server optimization with edge side action recognition processing. New processsing ditribution pipeline uses round robbin style frame cycling for firearm detecion making the PC side application fully equiped to handle 5 camera sources with firearm detection with a stable processing load. Notification label enhancements. Change: Jetson PUSH notifications to PC to replace previous GET used in earlier version.   
     
   </p>
-</div>
 
 <div style="text-align: center; margin: 20px 0;">
     <img src= "assets/images/Hardware_configuration.png" alt="EyeSpy+ Scaled System Architecture Diagram" style="border: 2px solid #00ff41; border-radius: 10px; max-width: 100%;">
     <p style="font-style: italic; color: #a0a0a0; margin-top: 10px;"> Additional distribution channel via Meshtastic Network planned in future developement.</p>
   </div>
     
+  <h4>Retrospective</h4>
+  
+  <h5>What went right this month?</h5>
+
+<div style="text-align: center; margin: 20px 0;">
+    <img src="assets/images/Screenshot 2025-07-06 190113.png" alt="Screenshot 2025-07-06 190113" style="border: 2px solid #00ff41; border-radius: 10px; max-width: 100%;">
+</div>
+
+  <p>1. Successfully implemented a distributed processing architecture that allows the Jetson Orin Nano to handle action recognition tasks while the PC manages firearm detection. This significantly improved the system's performance and responsiveness.</p>
+  <p>2. The new round-robin frame cycling method for firearm detection has proven to be efficient, allowing the PC application to handle multiple camera sources without overloading the system. </p>
+  <p>3. Enhanced notification system with Jetson PUSH notifications to the PC, improving real-time communication and reducing latency.</p>
+  <p>4. Jetson Orin Nano hosted Flask Camera API integration has streamlined the process of accessing camera feeds and improved overall system modularity.</p>
+  <p>5. System profiling tools have been integrated to monitor performance and identify bottlenecks in real-time.</p>
+  <p>6. WISeNeT RTSP Camera integration with edge Facial detection.</p>
+  
+   <h5>What went wrong this month?</h5>
+   <p>New features and changes required new methods to handle previous data structures. This added a debugging load to this month's development from issues with the notification system. Initially overloaded Jetsons capacity having it as the Firearm detection and Action recognition engine. Jetson Orin Nano computer vision limitations did not support hosting more than 2 cameras with active action recognition to the EyeSpy+ Main application. PUSH notifications to PC were not working as expected and exposed a security vulnerability.</p>
+
+
+  </div>
