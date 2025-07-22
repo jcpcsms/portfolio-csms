@@ -283,5 +283,9 @@ function changeSlide(direction) {
    <h5>What went wrong this month?</h5>
    <p>New features and changes required new methods to handle previous data structures. This added a debugging load to this month's development from issues with the notification system. Initially overloaded Jetsons capacity having it as the Firearm detection and Action recognition engine. Jetson Orin Nano computer vision limitations did not support hosting more than 2 cameras with active action recognition to the EyeSpy+ Main application. PUSH notifications to PC were not working as expected and exposed a security vulnerability.</p>
 
+   <h5>How can you improve moving forward?</h5>
+<p> Integration of Meshtastic network for distributed processing and notification system, allowing for more robust communication between devices. This will enable the system to scale further and improve reliability in remote areas without internet access. Allows for LoRa communication between devices, enhancing the overall system resilience.</p>
+<p> Allow users to make and use presets for the camera configuration. </p>
+<p> Test action recognition in crowded environments to evaluate performance and accuracy under challenging conditions.</p>
 
   </div>
