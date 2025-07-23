@@ -255,9 +255,8 @@ function changeSlide(direction) {
   <div class="post-meta"> July 21, 2025 • By JCP</div>
   
   <h4>Features Developed This Month</h4>
-  <p> This month development efforts scaled the system & application architecture to suport distributed processing and additional hardware components. See System diagram figure 1.
-    Jetson Orin Nano powered camera server optimization with edge side action recognition processing. New processsing ditribution pipeline uses round robbin style frame cycling for firearm detecion making the PC side application fully equiped to handle 5 camera sources with firearm detection with a stable processing load. Notification label enhancements. Change: Jetson PUSH notifications to PC to replace previous GET used in earlier version.   
-    
+  <p> This month development efforts scaled the system & application architecture to suport distributed processing and additional hardware components. The PC and Jetson device are no longer a direct point-to-point network. Added network switch and IP camera sources with edge face detection processing.
+    Jetson Orin Nano powered camera server optimization with edge side action recognition processing using a Flask server instance to feed Jetson USB camera sources into HTTP streams. Reference : Video Streaming Using Webcam In Flask Web Framework ( https://github.com/krishnaik06/Flask-Web-Framework/blob/main/Tutorial%207/app.py).New processsing ditribution pipeline (thanks to my advisor, Dr. Marpaung, for giving me this idea.) uses round robbin style frame cycling for firearm detecion making the PC side application fully equiped to handle 5 camera sources with firearm detection with a stable processing load. This enables 6 detections per / camera / second which is sufficient for threat identification. Jetson action detection PUSH notifications feature optimized thread initiatializations by eliminating constant prediction result queries from PC to edge. CPU usage is now below 80% after camera initialization load is complete. 
   </p>
 
 <div style="text-align: center; margin: 20px 0;">
