@@ -301,10 +301,9 @@ function changeSlide(direction) {
   The first EyeSpy+ prototype was developed through entering the Advanced Artificial Intelligence class with Dr. Ahmed Zaidy and revisiting OpenCV. By the end of the course, V1 of EyeSpy+ was submitted as a project deliverable that could perform audible notifications and capture photos when a cell phone was detected. Then, in Machine Learning class with Dr. J. Hosie, a study of training machine learning models and techniques with statistical analysis introduced the foundational experience to leverage advanced modeling techniques through a more creative approach." 
 
 The program has taught me to approach software design and systems engineering as a Computer Scientist. Begining with research foundations and identifying the state of the art through recent publications of peer reviewed research.
+I learned how to build advanced software and write modular code to make my applications scaleable. Now, I have a better understanding of building in unit tests and robust feedback into the development to identify any issues along the way. Most importantly I learned that the applications need to go through human-computer interaction evaluation and testing for non-developer users in order to make the software universally usable. 
 
- How has the program changed your approach to building software? 
-
- First, I learned how to build advanced software and write modular code to make my applications scaleable. Now, I have a better understanding of building in unit tests and robust feedback into the development to identify any issues along the way. Most importantly I learned that the applications need to go through human-computer interaction evaluation and testing for non-developer users in order to make the software universally usable. 
+Going forward I want to continue to work in AI / ML efficiency research to enable AI integrations with less electricity and processing requirements. 
 
   </p>
 
