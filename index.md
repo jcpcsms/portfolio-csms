@@ -300,5 +300,9 @@ function changeSlide(direction) {
   </p>
 
   <h4>Reflection Video link: https://drive.google.com/file/d/1MO6Kl6dDR9HsOxhA-PrHmLtaAZ_TrAkl/preview </h4>
-  
+  <a href="https://drive.google.com/file/d/1MO6Kl6dDR9HsOxhA-PrHmLtaAZ_TrAkl/preview" 
+   target="_blank"
+   style="display: inline-block; padding: 10px 20px; background: rgba(0, 255, 65, 0.2); border: 2px solid #00ff41; border-radius: 5px; color: #00ff41; text-decoration: none; font-weight: bold; text-shadow: 0 0 10px #00ff41;">
+  Watch Reflection Video
+  </a> 
 </div>
