@@ -302,6 +302,10 @@ function changeSlide(direction) {
 
 The program has taught me to approach software design and systems engineering as a Computer Scientist. Begining with research foundations and identifying the state of the art through recent publications of peer reviewed research.
 
+ How has the program changed your approach to building software? 
+
+ First, I learned how to build advanced software and write modular code to make my applications scaleable. Now, I have a better understanding of building in unit tests and robust feedback into the development to identify any issues along the way. Most importantly I learned that the applications need to go through human-computer interaction evaluation and testing for non-developer users in order to make the software universally usable. 
+
   </p>
 
   <h4>Reflection Video link: https://drive.google.com/file/d/1MO6Kl6dDR9HsOxhA-PrHmLtaAZ_TrAkl/preview </h4>
