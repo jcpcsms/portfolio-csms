@@ -289,52 +289,26 @@ function changeSlide(direction) {
 
   </div>
   
- <style>
-.video-container {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    text-align: center;
-}
+ 
+<div class="blog-post">
+  <h3 class="post-title"> Capstone & Thesis Submission</h3>
+  <div class="post-meta"> August 31, 2025 • By JCP</div>
+  
+  <h4> Reviewing the CSMS program at Full Sail </h4>
+  <p>  EyeSpy+ was researched and built as part of curriculum based assignments throughout the coursework of the Computer Science Master of Science (CSMS) program. For the keystone project of the Advanced Software Engineering class (Dr. Oleg Kachirski), the foundations of computer vision modeling were introduced with Python and OpenCV.  The course deliverable was a custom object detection CV model. Data pre-processing and manual sample augmentation were done via Adobe Express. Beta versions of image annotations were first attempted with the annotation platform called CVAT-AI resulting in a model scoring 51 (which is only slightly better than a random guess) due to precision mistakes in annotations and the learning curve in CV modeling. V2 migrated annotation and modeling work to Roboflow as an alternate approach. Roboflow is a more streamlined annotation and model training platform with model metrics, deployment, and testing. This was preferable to the containerized server running on a local machine with CVAT-AI. The dataset comprised a library of audiovisual (AV) devices and connector images. For this project, the intent was to provide a model that could be used to identify an AV device's connection points to feed into a system diagram. The model scored 99% precision with 100% recall. The first successful detection of an HDMI connector was in V1. In beta, all connector types were annotated so in V1 only HDMI was annotated and trained on and performed a successful high confidence detection. V2 contained HDMI and RJ45 while V3 added USB connectors into the object recognition model.
+  The first EyeSpy+ prototype was developed through entering the Advanced Artificial Intelligence class with Dr. Ahmed Zaidy and revisiting OpenCV. By the end of the course, V1 of EyeSpy+ was submitted as a project deliverable that could perform audible notifications and capture photos when a cell phone was detected. Then, in Machine Learning class with Dr. J. Hosie, a study of training machine learning models and techniques with statistical analysis introduced the foundational experience to leverage advanced modeling techniques through a more creative approach. 
+  </p>
 
-.video-wrapper {
-    position: relative;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio */
-    height: 0;
-    overflow: hidden;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
-.video-wrapper iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: none;
-}
-
-.video-instructions {
-    background: rgba(14, 15, 15, 0.9) !important;
-    padding: 15px;
-    border: 1px solid #00ff41 !important;
-    border-radius: 5px;
-    margin-top: 20px;
-    text-align: left;
-    font-size: 14px;
-    color: #00ff41 !important;
-    font-family: 'Courier New', monospace !important;
-}
-</style>
-<div class="video-container">
-    <div class="video-wrapper">
-        <!-- Replace FILE_ID with your actual Google Drive file ID -->
-        <iframe src="https://drive.google.com/file/d/1MO6Kl6dDR9HsOxhA-PrHmLtaAZ_TrAkl/preview" 
-                allow="autoplay">
-        </iframe>
+  <h4>Reflection Video</h4>
+  
+  <div style="text-align: center; margin: 20px 0;">
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border: 2px solid #00ff41; border-radius: 10px; box-shadow: 0 0 30px rgba(0, 255, 65, 0.3);">
+      <iframe src="https://drive.google.com/file/d/1MO6Kl6dDR9HsOxhA-PrHmLtaAZ_TrAkl/preview" 
+              style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"
+              allow="autoplay">
+      </iframe>
     </div>
-<div class="video-instructions">
-    <strong>Reflection Video:</strong><br>
-    This video contains my personal reflection on the development process and challenges faced during the project.
+    <p style="font-style: italic; color: #a0a0a0; margin-top: 10px;">Personal reflection on the CSMS program and EyeSpy+ development journey</p>
+  </div>
+
 </div>
