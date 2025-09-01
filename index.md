@@ -338,4 +338,3 @@ function changeSlide(direction) {
     <strong>Reflection Video:</strong><br>
     This video contains my personal reflection on the development process and challenges faced during the project.
 </div>
-</div>
