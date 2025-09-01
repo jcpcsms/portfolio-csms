@@ -301,14 +301,10 @@ function changeSlide(direction) {
 
   <h4>Reflection Video</h4>
   
-  <div style="text-align: center; margin: 20px 0;">
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border: 2px solid #00ff41; border-radius: 10px; box-shadow: 0 0 30px rgba(0, 255, 65, 0.3);">
-      <iframe src="https://drive.google.com/file/d/1MO6Kl6dDR9HsOxhA-PrHmLtaAZ_TrAkl/preview" 
-              style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"
-              allow="autoplay">
-      </iframe>
-    </div>
-    <p style="font-style: italic; color: #a0a0a0; margin-top: 10px;">Personal reflection on the CSMS program and EyeSpy+ development journey</p>
-  </div>
-
+<div style="text-align: center; margin: 20px 0;">
+  <iframe src="https://drive.google.com/file/d/1MO6Kl6dDR9HsOxhA-PrHmLtaAZ_TrAkl/preview" 
+          style="border: 2px solid #00ff41; border-radius: 10px; width: 100%; height: 400px;"
+          allow="autoplay">
+  </iframe>
+  <p style="font-style: italic; color: #a0a0a0; margin-top: 10px;">Personal reflection on the CSMS program and EyeSpy+ development journey</p>
 </div>
