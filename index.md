@@ -299,12 +299,6 @@ function changeSlide(direction) {
   The first EyeSpy+ prototype was developed through entering the Advanced Artificial Intelligence class with Dr. Ahmed Zaidy and revisiting OpenCV. By the end of the course, V1 of EyeSpy+ was submitted as a project deliverable that could perform audible notifications and capture photos when a cell phone was detected. Then, in Machine Learning class with Dr. J. Hosie, a study of training machine learning models and techniques with statistical analysis introduced the foundational experience to leverage advanced modeling techniques through a more creative approach. 
   </p>
 
-  <h4>Reflection Video</h4>
+  <h4>Reflection Video link: https://drive.google.com/file/d/1MO6Kl6dDR9HsOxhA-PrHmLtaAZ_TrAkl/preview </h4>
   
-<div style="text-align: center; margin: 20px 0;">
-  <iframe src="https://drive.google.com/file/d/1MO6Kl6dDR9HsOxhA-PrHmLtaAZ_TrAkl/preview" 
-          style="border: 2px solid #00ff41; border-radius: 10px; width: 100%; height: 400px;"
-          allow="autoplay">
-  </iframe>
-  <p style="font-style: italic; color: #a0a0a0; margin-top: 10px;">Personal reflection on the CSMS program and EyeSpy+ development journey</p>
 </div>
