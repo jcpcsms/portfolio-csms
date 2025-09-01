@@ -289,61 +289,53 @@ function changeSlide(direction) {
 
   </div>
   
- <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Video Blog</title>
-    <style>
-        .video-container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            text-align: center;
-        }
-        
-        .video-wrapper {
-            position: relative;
-            padding-bottom: 56.25%; /* 16:9 aspect ratio */
-            height: 0;
-            overflow: hidden;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-        }
-        
-        .video-wrapper iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            border: none;
-        }
-        
-        h2 {
-            color: #333;
-            margin-bottom: 15px;
-        }
-        
-        .instructions {
-            background: #0e0f0f;
-            padding: 15px;
-            border-radius: 5px;
-            margin-top: 20px;
-            text-align: left;
-            font-size: 14px;
-            color: #02e33e;
-        }
-    </style>
-</head>
-<body>
-    <div class="video-container">
-        <h2>Reflection Video</h2>
-        
-        <div class="video-wrapper">
-            <!-- Replace FILE_ID with your actual Google Drive file ID -->
-            <iframe src="https://drive.google.com/file/d/1MO6Kl6dDR9HsOxhA-PrHmLtaAZ_TrAkl/preview" 
-                    allow="autoplay">
-            </iframe>
-        
+ <style>
+.video-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.video-instructions {
+    background: rgba(14, 15, 15, 0.9) !important;
+    padding: 15px;
+    border: 1px solid #00ff41 !important;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: left;
+    font-size: 14px;
+    color: #00ff41 !important;
+    font-family: 'Courier New', monospace !important;
+}
+</style>
+<div class="video-container">
+    <div class="video-wrapper">
+        <!-- Replace FILE_ID with your actual Google Drive file ID -->
+        <iframe src="https://drive.google.com/file/d/1MO6Kl6dDR9HsOxhA-PrHmLtaAZ_TrAkl/preview" 
+                allow="autoplay">
+        </iframe>
     </div>
-</body> 
+<div class="video-instructions">
+    <strong>Reflection Video:</strong><br>
+    This video contains my personal reflection on the development process and challenges faced during the project.
+</div>
+</div>
